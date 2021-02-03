@@ -52,14 +52,9 @@ td{
 #blue{
     background-color: lightblue;
 }
-footer{
 
-    background-color: black;
-    padding: 20px;
-
-}
-
-div.wrapper{
+div.wrapper,footer{
+    background-color: white;
     width: 1000px;
     margin: auto;
 }
@@ -67,3 +62,8 @@ div.wrapper{
 img{ width: 1000px;
 
 }
+
+footer{
+    background-color: black;
+}
+
