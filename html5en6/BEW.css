@@ -72,4 +72,12 @@ footer a {
 
     color: white;
 }
+li{list-style-type: none;
+}
 
+.inputs{
+    float: right;
+}
+#Formulier{
+    width: 400px;
+}

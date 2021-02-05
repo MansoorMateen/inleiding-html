@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, sans-serif;
     background-color: white;
@@ -8,6 +10,19 @@ header{
     background-color: white;
     
 }
+footer{background-color: black;
+    color: white;
+    width: 1000px;
+  
+    margin: auto;
+    height: 200px;
+}
+
+footer a{
+    color: white;
+}
+footer li{list-style-type: none;}
+
 
 nav {
     
@@ -53,17 +68,16 @@ td{
     background-color: lightblue;
 }
 
-div.wrapper,footer{
+div.wrapper{
     background-color: white;
     width: 1000px;
     margin: auto;
 }
 
+
 img{ width: 1000px;
 
 }
 
-footer{
-    background-color: black;
-}
+main{height: 600px;}
 
