@@ -74,10 +74,42 @@ footer a {
 }
 li{list-style-type: none;
 }
+select{
+    padding-right: 90px;
+}
+input.Geslacht{
+    text-align: center;
+    display: inline-block;
+    
+}
+form ul{
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    float: left;
+}
 
-.inputs{
+form ul li {
+    padding: 10px;
+}
+
+form ul li input{
+    position: absolute;
+    left: 150px;
+}
+form table{
+
     float: right;
 }
-#Formulier{
-    width: 400px;
+
+form article{
+    float: right;
+}
+
+form footer{
+    background-color: white;
+}
+form footer.button{
+    width: 30px;
+    padding-left: 10px;
 }
