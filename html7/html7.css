@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+section, footer{
+    padding: 20px;
+}
+@media all and (min-width: 650px)
+{section#nieuws{float: left;
+width: 40%;}
+section#Muziek{float: right;
+width: 60%;}}
+@media all and (min-width: 800px)
+{   article{ display: inline-block;
+width: 46%;
+margin-right: 20px;}
+    section#nieuws{float: left;
+width: 30%;}
+section#Muziek{float: right;
+width: 70%;}}
+
+div#wrapper, footer{
+    margin: auto;
+    width: 1000px;    
+    background-color: #F9F1EA;
+   
+}
+img#logo{ 
+    background-color: #CAECDE;
+    height: 50%;
+    width: 100%;
+    
+    
+}
+
+nav{
+    margin: auto;
+    width:  1000px;
+    
+}
+footer{
+   width: 1000px;
+    background-color: #808080;
+    text-align: left;
+}
+
+header{text-align: center;}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    marker: none;
+    text-align: left;
+    width: 100%;
+}
+li{
+    background-color: #808080 ;
+    padding: 10px;
+    border-top: 1px solid white;
+    marker: none;
+}
+@media all and (min-width: 650px)
+{ul{ background-color: #808080 ;}
+li { display: inline-block;
+     border: none;
+     display: left;
+         
+}}
+
+li a{color: white;
+    font-weight: 700;
+    text-decoration: none;
+    marker: none;
+
+}
+
+h3{
+    font-weight: 600;
+    color:  #D27767;
+    font-size: 22px;
+}
+p{color: #96928D;}
+
+footer p, footer h3{color: white;}
+
+footer{ clear: both;}
+
+img{width: 100%;}
