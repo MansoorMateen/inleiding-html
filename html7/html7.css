@@ -11,12 +11,12 @@ body{
 section, footer{
     padding: 20px;
 }
-@media all and (min-width: 650px)
+@media all and (min-width: 768px)
 {section#nieuws{float: left;
 width: 40%;}
 section#Muziek{float: right;
 width: 60%;}}
-@media all and (min-width: 800px)
+@media all and (min-width: 900px)
 {   article{ display: inline-block;
 width: 46%;
 margin-right: 20px;}
@@ -27,13 +27,13 @@ width: 70%;}}
 
 div#wrapper, footer{
     margin: auto;
-    width: 1000px;    
+    max-width: 1000px;    
     background-color: #F9F1EA;
    
 }
 img#logo{ 
     background-color: #CAECDE;
-    height: 50%;
+    height: auto;
     width: 100%;
     
     
@@ -41,16 +41,17 @@ img#logo{
 
 nav{
     margin: auto;
-    width:  1000px;
+    max-width:  1000px;
     
 }
 footer{
-   width: 1000px;
+   max-width: 1000px;
     background-color: #808080;
     text-align: left;
 }
 
-header{text-align: center;}
+header{text-align: center;
+width: 100%;}
 
 ul{
     padding: 0px;
@@ -66,7 +67,7 @@ li{
     border-top: 1px solid white;
     marker: none;
 }
-@media all and (min-width: 650px)
+@media all and (min-width: 768px)
 {ul{ background-color: #808080 ;}
 li { display: inline-block;
      border: none;
